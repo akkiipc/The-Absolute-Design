@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Banner.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.rectangle {
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width: 924px;
+    height: 400px;
+    background: transparent linear-gradient(231deg, #FFF0D4 0%, #FFA85C 100%) 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    box-shadow: 10px 10px 40px #DBC9A7;
+    opacity: 0.8;
+    backdrop-filter: blur(42px);
+    -webkit-backdrop-filter: blur(42px);
+}
+
+
+.rectangle2 {
+    top: 120px;
+    left: 221px;
+    width: 924px;
+    height: 528px;
+    background: transparent linear-gradient(231deg, #FFF0D4 0%, #FFA85C 100%) 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 0.7;
+    backdrop-filter: blur(42px);
+    -webkit-backdrop-filter: blur(42px);
+}
+
+.banner-area h2 {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    /*    transform: translate(-50%,-50%);*/
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 3.5em;
+}
+
+.banner-area h2 span {
+    color: #413B32;
+}
+
+.logo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+h4 {
+    position: absolute;
+    text-align: center;
+    top: 70%;    
+    left: 32%;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #413B32;
+}
+
+/*.banner-area {*/
+/*    top: 172px;*/
+/*    left: 269px;*/
+/*    width: 904px;*/
+/*    height: 500px;*/
+/*    background: #F1E3C8 0% 0% no-repeat padding-box;*/
+/*    mix-blend-mode: multiply;*/
+/*    border-radius: 25px;*/
+/*    opacity: 1;*/
+/*    filter: blur(30px);*/
+/*}*/
